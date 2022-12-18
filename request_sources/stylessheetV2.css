@@ -41,7 +41,8 @@ form {
     outline: none;
     border: none;
     transition: all .3s;
-    background-color: #455d70
+    background-color: #455d70;
+    font-weight: bold;
 }
 
 input:focus {
