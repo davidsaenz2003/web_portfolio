@@ -48,6 +48,6 @@ instaLInk.addEventListener("click", () => {
 
 
 gmailMe.addEventListener("click", () => {
-    window.open("./request.html")
+    window.open("./request_sources/request.html")
 })
 
