@@ -42,7 +42,6 @@ nav {
 
 .moreAbout {
   display: flex;
-  
   flex-direction: row-reverse;
   background-color: black;
   height: 70vh;
@@ -329,4 +328,122 @@ nav {
   color:goldenrod;
   font-weight: bold;
   cursor: default;
+}
+
+@media (max-width: 1016px) {
+  .about-me {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .about-me h1{
+    font-size: 30px;
+    line-height: 40px;
+
+  }
+
+  .about-me p {
+    margin-bottom: 30px;
+  }
+
+  .Aboutme h1{
+    text-align: center;
+  }
+
+  .Aboutme2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+  }
+
+  .Aboutme2 h1{
+    text-align: center;
+    margin-left: -20px;
+  }
+
+  .Aboutme2 p{
+    margin-left: -20px;
+  }
+
+  .moreAbout2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .moreAbout{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .Aboutme{
+    width: 80%;
+  }
+  
+
+  .picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .picture img{
+    width: 400px;
+    heigth: 400px;
+  }
+
+  .picture2{
+    display: none;
+  }
+
+  .contact_me{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact_me h1{
+    font-size: 30px;
+  }
+
+  .contact_me p{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .contact_img {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact_img img{
+     width: 80px;
+     height: 80px;
+     margin: 5px;
+  }
+
+}
+
+@media (max-width: 455px) {
+
+  .picture{
+    display: none}
+
+  .contact_img{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
 }
