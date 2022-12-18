@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correo</title>
+    <link rel="stylesheet" href="./stylessheetV2.css" />
+</head>
+
+<body>
+    <h1>Este es mi contacto de gmail </h1>
+    <form action="https://formsubmit.co/laurav2826@gmail.com" method="POST">
+        <div class="elem-group"> <label for="name">Nombre</label> <input type="text"  name="name"
+                placeholder="Tu nombre aquí" pattern=[A-Z\sa-z]{3,20} required> </div>
+        <div class="elem-group"> <label for="email">Correo electrónico</label> <input type="email"
+                name="email" placeholder="Tu correo electronico" required> </div>
+        <div class="elem-group"> <label for="title">Motivo de contacto</label> <input type="text" 
+                name="subject" required placeholder="Escribe tu asunto aquí" pattern=[A-Za-z0-9\s]{8,60}> </div>
+
+        <div class="elem-group"> <label for="title">Contenido</label>
+        <textarea name="comments" cols="15" rows="5"></textarea>
+        </div>
+
+        <button type="submit"><img src="./media/social_media/gmail.png">
+            <p>Enviar correo</p>
+        </button>
+    </form>
+</body>
+
+</html>
