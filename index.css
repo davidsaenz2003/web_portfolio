@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@700&family=Roboto+Mono:wght@500&family=Source+Code+Pro:wght@300&family=Vazirmatn:wght@700&display=swap");
+body {
+  font-family: "Source Code Pro", monospace;
+  margin: 0 auto;
+  background-color: #28283d;
+}
+
+nav {
+  display: flex;
+  color: whitesmoke;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #28283d;
+}
+
+.logo h1 {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: default;
+}
+
+.links {
+  display: flex;
+  color: #82fff8;
+  font-weight: bold;
+  flex-direction: row;
+  margin-right: 50px;
+}
+
+.links p {
+  margin-left: 40px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.links p:hover {
+  border-radius: 2px;
+  text-shadow: 10px 10px 7px rgba(0, 0, 0, 0.3);
+  font-size: 17px;
+}
+
+.moreAbout {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: black;
+  height: 70vh;
+  color: white;
+}
+
+.Aboutme {
+  width: 40%;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.Aboutme h1 {
+  font-family: "Roboto Mono", monospace;
+  color: #1abb74;
+}
+
+.picture {
+  width: 60%;
+}
+
+.picture img {
+  heigth: 900px;
+  width: 900px;
+}
+
+.moreAbout2 {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 70vh;
+  color: white;
+}
+
+.Aboutme2 {
+  width: 40%;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.Aboutme2 h1 {
+  font-family: "Roboto Mono", monospace;
+  color: #1abb74;
+}
+
+.picture2 {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  align-items: center;
+  text-align: center;
+}
+
+.picture2 h3 {
+  color: black;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.picture2 img {
+  heigth: 80px;
+  padding: 30px;
+  width: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.picture2 img:hover {
+  transform: translateY(-20px);
+  heigth: 100px;
+  width: 100px;
+  z-index: 3;
+  filter: drop-shadow(-2px 2px 15px #90e7c1);
+}
+
+.GitHub:hover h3 {
+  color: white;
+}
+
+.ReactJs:hover h3 {
+  color: white;
+}
+
+.Html:hover h3 {
+  color: white;
+}
+
+.CSS:hover h3 {
+  color: white;
+}
+
+.JavaScript:hover h3 {
+  color: white;
+}
+
+.about-me {
+  display: flex;
+  height: 80vh;
+}
+
+.onlyText {
+  width: 50%;
+  margin-left: 20px;
+  color: white;
+}
+
+.onlyText h1 {
+  color: #1abb74;
+  font-family: "Roboto Mono", monospace;
+  line-height: 80px;
+  font-size: 60px;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.onlySelect {
+  color: #a7f2fa;
+  font-weight: bold;
+}
+
+.textEffect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.first {
+  white-space: nowrap;
+  width: 18ch;
+  animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+  margin-bottom: -20px;
+}
+
+.last {
+  white-space: nowrap;
+  width: 16ch;
+  animation: typing 2s steps(16), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav h1 {
+    left: -740px;
+  }
+} ;
