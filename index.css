@@ -238,7 +238,6 @@ nav {
 
 .gmail{
   transition: all.5s;
-
 }
 
 .whatsapp{
@@ -255,6 +254,8 @@ nav {
   transition: all.5s;
   margin-bottom: 10px;
 }
+
+
 
 
 .gmail:hover{
@@ -378,6 +379,8 @@ nav {
     height: 100%;
   }
 
+ 
+
   .moreAbout{
     flex-direction: column;
     align-items: center;
@@ -390,7 +393,6 @@ nav {
     width: 80%;
   }
   
-
   .picture{
     display: flex;
     align-items: center;
@@ -412,6 +414,7 @@ nav {
     margin-top: 20px;
     flex-direction: column;
     align-items: center;
+    height: 400px;
   }
 
   .contact_me h1{
@@ -428,10 +431,11 @@ nav {
     flex-direction: row;
   }
 
+
   .contact_img img{
      width: 80px;
      height: 80px;
-     margin: 5px;
+     margin: 10px;
   }
 
 }
