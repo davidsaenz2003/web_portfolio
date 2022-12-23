@@ -112,3 +112,23 @@ textarea {
     background-color:  #455d70;
     padding: 10px;
     color: white;}
+
+    @media (max-width: 600px) {
+
+        h1 {
+            color:#70a793;
+            font-size: 40px;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        button {
+            width: 70%;
+            
+        }
+
+        .elem-group {
+            width: 70%;
+        }
+
+    }
