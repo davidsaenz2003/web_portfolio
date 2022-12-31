@@ -661,12 +661,27 @@ nav {
     align-items: center;
     border-radius: 6px;
     margin-bottom: 20px;
-   background-color:#FF5733;
+   background-color:#c20000;
    justify-content: center;
   }
 
+  .links { 
+    display: none;
+  }
 
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-
+  .logo h1{
+    font-size: 20px;
+    text-align: center;
+    padding-right: 26px;
+    font-weight: Bold;
+    
+  }
 
 }
